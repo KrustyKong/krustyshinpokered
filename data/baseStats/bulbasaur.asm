@@ -1,10 +1,10 @@
 MonBaseStats:
 db DEX_BULBASAUR ; pokedex id
-db 45 ; base hp
-db 49 ; base attack
-db 49 ; base defense
-db 45 ; base speed
-db 65 ; base special
+db 60 ; base hp
+db 62 ; base attack
+db 63 ; base defense
+db 60 ; base speed
+db 80 ; base special
 db GRASS ; species type 1
 db POISON ; species type 2
 db 45 ; catch rate
@@ -15,7 +15,7 @@ dw BulbasaurPicBack
 ; attacks known at lvl 0
 db TACKLE
 db GROWL
-db 0
+db VINE_WHIP
 db 0
 db 3 ; growth rate
 ; learnset
