@@ -2411,7 +2411,7 @@ ItemUseTMHM:
 	ld a, [wcf91]
 	call IsItemHM
 	ret c
-	jp RemoveUsedItem
+;	jp RemoveUsedItem
 
 BootedUpTMText:
 	TX_FAR _BootedUpTMText

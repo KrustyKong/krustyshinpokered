@@ -12,10 +12,10 @@ INCBIN PONYTA_FR,0,1 ; 66, sprite dimensions
 dw PonytaPicFront
 dw PonytaPicBack
 ; attacks known at lvl 0
+db GROWL
+db TACKLE
+db TAIL_WHIP
 db EMBER
-db 0
-db 0
-db 0
 db 0 ; growth rate
 ; learnset
 	tmlearn 6,7,8

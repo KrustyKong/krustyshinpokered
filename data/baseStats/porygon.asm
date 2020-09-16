@@ -14,8 +14,8 @@ dw PorygonPicBack
 ; attacks known at lvl 0
 db TACKLE
 db SHARPEN
-db CONVERSION
-db 0
+db PSYBEAM
+db AGILITY
 db 0 ; growth rate
 ; learnset
 	tmlearn 6

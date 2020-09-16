@@ -70,7 +70,7 @@ AlwaysHappenSideEffects:
 	db RECOIL_EFFECT
 	db TWINEEDLE_EFFECT
 	db RAGE_EFFECT
-	db HYPER_BEAM_EFFECT	;joenote - make hyperbeam recharge if knock out enemy
+;	db HYPER_BEAM_EFFECT	;joenote - make hyperbeam recharge if knock out enemy
 	db -1
 SpecialEffects:
 ; Effects from arrays 2, 4, and 5B, minus Twineedle and Rage.
@@ -5073,8 +5073,11 @@ CriticalHitTest:
 HighCriticalMoves:
 	db KARATE_CHOP
 	db RAZOR_LEAF
-	db CRABHAMMER
+	db POISON_STING
+	db WATER_GUN
 	db SLASH
+	db SLAM
+	db HORN_DRILL
 	db $FF
 
 
@@ -7864,9 +7867,7 @@ LoadMonBackPic:
 	call ClearScreenArea
 	ld hl,  wMonHBackSprite - wMonHeader
 	call UncompressMonSprite
-	predef ScaleSpriteByTwo
-	ld de, vBackPic
-	call InterlaceMergeSpriteBuffers ; combine the two buffers to a single 2bpp sprite
+	callba LoadUncompressedBackPics
 	ld hl, vSprites
 	ld de, vBackPic
 	ld c, (2*SPRITEBUFFERSIZE)/16 ; count of 16-byte chunks to be copied

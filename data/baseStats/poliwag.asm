@@ -13,7 +13,7 @@ dw PoliwagPicFront
 dw PoliwagPicBack
 ; attacks known at lvl 0
 db BUBBLE
-db 0
+db DOUBLESLAP
 db 0
 db 0
 db 3 ; growth rate

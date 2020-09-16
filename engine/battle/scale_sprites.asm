@@ -83,3 +83,10 @@ DuplicateBitsTable:
 	db $30, $33, $3c, $3f
 	db $c0, $c3, $cc, $cf
 	db $f0, $f3, $fc, $ff
+
+LoadUncompressedBackPics:
+	ld a, $66
+	ld c, a
+	ld de, vBackPic
+	jp LoadUncompressedSpriteData
+	

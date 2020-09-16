@@ -1,6 +1,6 @@
 db DEX_FARFETCHD ; pokedex id
 db 52 ; base hp
-db 65 ; base attack
+db 90 ; base attack
 db 55 ; base defense
 db 60 ; base speed
 db 58 ; base special
@@ -14,8 +14,8 @@ dw FarfetchdPicBack
 ; attacks known at lvl 0
 db SAND_ATTACK
 db PECK
-db 0
-db 0
+db LEER
+db FOCUS_ENERGY
 db 0 ; growth rate
 ; learnset
 	tmlearn 2,3,4,6,8
