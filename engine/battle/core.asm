@@ -5072,6 +5072,7 @@ CriticalHitTest:
 ; high critical hit moves
 HighCriticalMoves:
 	db KARATE_CHOP
+	db FURY_ATTACK
 	db RAZOR_LEAF
 	db POISON_STING
 	db WATER_GUN
@@ -9027,7 +9028,7 @@ TwoToFiveAttacksEffect:
 	ld [bc], a
 	ret
 .twineedle
-	ld a, POISON_SIDE_EFFECT1
+	ld a, POISON_SIDE_EFFECT2	;40% like in later gens
 	ld [hl], a ; set Twineedle's effect to poison effect
 	jr .saveNumberOfHits
 

@@ -43,11 +43,14 @@
 SpecialTrainerMoves:
 	db BROCK,$1
 	db 2,4,BIDE
+	db 3,3,BIDE
 	db 0
 	
 	db MISTY,$1
-	db 2,3,HARDEN
-	db 2,4,BUBBLEBEAM
+	db 1,3,SLEEP_POWDER
+	db 1,4,SUBSTITUTE
+	db 2,1,THUNDER_WAVE
+	db 3,4,CONFUSE_RAY
 	db 0
 	
 	db LT_SURGE,$1

@@ -511,12 +511,12 @@ StaryuEvosMoves:
 	db EV_ITEM, WATER_STONE, 1, STARMIE
 	db 0
 ; Learnset
-	db 17, WATER_GUN
-	db 22, HARDEN
-	db 27, RECOVER
-	db 32, SWIFT
-	db 37, PSYCHIC_M
-	db 42, LIGHT_SCREEN
+	db 10, RECOVER		;gen 7
+	db 16, SWIFT		;gen 7
+	db 18, BUBBLEBEAM	;gen 7
+	db 24, LIGHT_SCREEN	;gen 7 gyro ball
+	db 37, PSYCHIC_M	;gen 7 power gem
+	db 40, CONFUSE_RAY	;gen 7
 	db 47, HYDRO_PUMP
 	db 0
 
@@ -647,7 +647,7 @@ KadabraEvosMoves:
 GravelerEvosMoves:
 ; Evolutions
 	db EV_TRADE, 1, GOLEM
-	db EV_LEVEL, 45, GOLEM
+	db EV_ITEM, THUNDER_STONE, GOLEM
 	db 0
 ; Learnset
 	db 11, DEFENSE_CURL
@@ -1206,8 +1206,8 @@ SeadraEvosMoves:
 	db 0
 ; Learnset
 	db 19, SMOKESCREEN
-	db 24, LEER
-	db 32, POISON_STING
+	db 24, WATERFALL
+	db 32, SLUDGE
 	db 41, AGILITY
 	db 52, HYDRO_PUMP
 	db 0
@@ -1812,8 +1812,8 @@ StarmieEvosMoves:
 	db 0
 ;joenote-modified for fun
 ; Learnset
-	db 21, WATER_GUN
-	db 26, HARDEN
+	db 21, BUBBLEBEAM
+	db 26, AURORA_BEAM
 	db 31, RECOVER
 	db 36, SWIFT
 	db 46, LIGHT_SCREEN
@@ -1827,11 +1827,11 @@ BulbasaurEvosMoves:
 ; Learnset
 	db 7, LEECH_SEED
 	db 13, TAKE_DOWN
-	db 20, POISONPOWDER
-	db 27, RAZOR_LEAF
+	db 13, POISONPOWDER
+	db 19, RAZOR_LEAF
 	db 34, GROWTH
 	db 41, SLEEP_POWDER
-	db 48, SOLARBEAM
+	db 48, PETAL_DANCE
 	db 0
 
 VenusaurEvosMoves:
@@ -1938,7 +1938,7 @@ RapidashEvosMoves:
 	db 32, STOMP
 	db 35, GROWL
 	db 39, FIRE_BLAST
-	db 41, TAKE_DOWN
+	db 41, PIN_MISSILE
 	db 55, HORN_DRILL
 	db 0
 
@@ -1947,20 +1947,24 @@ RattataEvosMoves:
 	db EV_LEVEL, 20, RATICATE
 	db 0
 ; Learnset
-	db 7, QUICK_ATTACK
+	db 4, QUICK_ATTACK
 	db 14, HYPER_FANG
-	db 23, FOCUS_ENERGY
-	db 34, SUPER_FANG
+	db 7, FOCUS_ENERGY
+	db 22, SCREECH
+	db 28, SUPER_FANG
+	db 31, DOUBLE_EDGE
 	db 0
 
 RaticateEvosMoves:
 ; Evolutions
+	db EV_ITEM, MOON_STONE, 1, RATTATA
 	db 0
 ; Learnset
 	db 7, QUICK_ATTACK
 	db 14, HYPER_FANG
 	db 27, FOCUS_ENERGY
 	db 41, SUPER_FANG
+	db 16, BODY_SLAM	;the youngster east of vermillion and green on ss anne will use this move
 	db 0
 
 NidorinoEvosMoves:

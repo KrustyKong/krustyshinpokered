@@ -12,10 +12,10 @@ INCBIN STARMIE_FR,0,1 ; 66, sprite dimensions
 dw StarmiePicFront
 dw StarmiePicBack
 ; attacks known at lvl 0
-db TACKLE
+db SWIFT
 ;db WATER_GUN
 ;db HARDEN
-db 0
+db RECOVER
 db 0
 db 0
 db 5 ; growth rate

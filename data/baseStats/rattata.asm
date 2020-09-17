@@ -1,9 +1,9 @@
 db DEX_RATTATA ; pokedex id
 db 30 ; base hp
-db 56 ; base attack
+db 71 ; base attack		;alola raticate
 db 35 ; base defense
-db 72 ; base speed
-db 25 ; base special
+db 77 ; base speed		;alola raticate
+db 40 ; base special	;alola raticate
 db NORMAL ; species type 1
 db NORMAL ; species type 2
 db 255 ; catch rate
@@ -14,7 +14,7 @@ dw RattataPicBack
 ; attacks known at lvl 0
 db TACKLE
 db TAIL_WHIP
-db 0
+db BITE
 db 0
 db 0 ; growth rate
 ; learnset
