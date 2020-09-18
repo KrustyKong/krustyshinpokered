@@ -13,8 +13,8 @@ dw ScytherPicFront
 dw ScytherPicBack
 ; attacks known at lvl 0
 db QUICK_ATTACK
-db 0
-db 0
+db LEER
+db FOCUS_ENERGY
 db 0
 db 0 ; growth rate
 ; learnset

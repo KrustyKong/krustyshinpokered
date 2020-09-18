@@ -235,13 +235,12 @@ ClefairyEvosMoves:
 	db EV_ITEM, MOON_STONE, 1, CLEFABLE
 	db 0
 ; Learnset
-	db 6, SING
 	db 10, MINIMIZE
-	db 12, DOUBLESLAP
+	db 12, COMET_PUNCH
 	db 16, GROWTH
 	db 18, METRONOME
 	db 24, BODY_SLAM
-	db 28, LIGHT_SCREEN
+	db 28, AMNESIA ;cleffa egg move
 	db 0
 
 SpearowEvosMoves:
@@ -249,7 +248,6 @@ SpearowEvosMoves:
 	db EV_LEVEL, 20, FEAROW
 	db 0
 ; Learnset
-	db 4, LEER
 	db 11, FURY_ATTACK
 	db 15, FOCUS_ENERGY
 	db 18, MIRROR_MOVE
@@ -275,8 +273,7 @@ NidokingEvosMoves:
 	db 0
 ; Learnset
 	db 8, HORN_ATTACK
-	db 12, DOUBLE_KICK
-	db 19, POISON_STING
+	db 19, SLUDGE
 	db 23, THRASH
 	db 0
 
@@ -391,13 +388,11 @@ CuboneEvosMoves:
 	db EV_LEVEL, 28, MAROWAK
 	db 0
 ; Learnset;joenote-modified for yellow
-	db 13, TAIL_WHIP
-	db 16, HEADBUTT
 	db 25, LEER
-	db 31, FOCUS_ENERGY
-	db 38, THRASH
-	db 43, BONEMERANG
-	db 46, RAGE
+	db 21, FOCUS_ENERGY
+	db 25, BONEMERANG
+	db 37, THRASH
+	db 46, ROCK_SLIDE
 	db 0
 
 RhyhornEvosMoves:
@@ -497,7 +492,6 @@ ScytherEvosMoves:
 ; Evolutions
 	db 0
 ; Learnsetjoenote-modified for yellow
-	db 17, LEER
 	db 20, FOCUS_ENERGY
 	db 24, WING_ATTACK
 	db 29, SLASH

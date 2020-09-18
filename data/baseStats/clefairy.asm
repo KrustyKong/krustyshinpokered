@@ -12,10 +12,10 @@ INCBIN CLEFAIRY_FR,0,1 ; 55, sprite dimensions
 dw ClefairyPicFront
 dw ClefairyPicBack
 ; attacks known at lvl 0
-db POUND
 db GROWL
 db DEFENSE_CURL
-db 0
+db POUND
+db SING
 db 4 ; growth rate
 ; learnset
 	tmlearn 1,5,6,8
