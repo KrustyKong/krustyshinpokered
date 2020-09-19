@@ -7,7 +7,7 @@ db 60 ; base speed
 db 80 ; base special
 db GRASS ; species type 1
 db POISON ; species type 2
-db 45 ; catch rate
+db 190 ; catch rate			190 like pikachu
 db 64 ; base exp yield
 INCBIN BULBASAUR_FR,0,1 ; 55, sprite dimensions
 dw BulbasaurPicFront

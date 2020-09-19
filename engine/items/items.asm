@@ -2410,7 +2410,7 @@ ItemUseTMHM:
 	ret z
 	ld a, [wcf91]
 	call IsItemHM
-	ret c
+	ret ;c
 ;	jp RemoveUsedItem
 
 BootedUpTMText:

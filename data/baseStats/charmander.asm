@@ -6,7 +6,7 @@ db 65 ; base speed
 db 50 ; base special
 db FIRE ; species type 1
 db FIRE ; species type 2
-db 45 ; catch rate
+db 190 ; catch rate		190 like pikachu
 db 65 ; base exp yield
 INCBIN CHARMANDER_FR,0,1 ; 55, sprite dimensions
 dw CharmanderPicFront

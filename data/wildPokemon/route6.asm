@@ -5,9 +5,9 @@ Route6Mons:;joenote - added squirtle
 		db 13,PIDGEY
 		db 15,PIDGEY
 		db 12,MANKEY
-		db 15,ODDISH
+		db 15,MAGNEMITE		;wasODDISH
 		db 16,ODDISH
-		db 16,PIDGEY
+		db 16,BELLSPROUT	;wasPIDGEY
 		db 14,MANKEY
 		db 16,MANKEY
 		db 10,SQUIRTLE

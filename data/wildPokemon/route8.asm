@@ -7,7 +7,7 @@ Route8Mons:;joenote - added growlithe/vulpix
 		db 16,GROWLITHE
 		db 20,PIDGEY
 		db 20,MANKEY
-		db 19,EKANS
+		db 19,SANDSHREW		;wasEKANS
 		db 17,GROWLITHE
 		db 18,GROWLITHE
 		db 15,VULPIX

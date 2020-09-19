@@ -365,12 +365,12 @@ NidoranFEvosMoves:
 	db EV_LEVEL, 16, NIDORINA
 	db 0
 ; Learnset
-	db 8, SCRATCH
-	db 12, DOUBLE_KICK
-	db 17, POISON_STING
-	db 23, TAIL_WHIP
-	db 30, BITE
-	db 38, FURY_SWIPES
+	db 8, SCRATCH			;buffed
+	db 12, DOUBLE_KICK		;Yellow
+	db 14, POISON_STING			;RBY
+	db 18, TOXIC		;LG
+	db 21, TAKE_DOWN	;TM09
+	db 27, SUPER_FANG	;LG
 	db 0
 
 NidoqueenEvosMoves:
@@ -1037,8 +1037,8 @@ MeowthEvosMoves:
 	db EV_LEVEL, 28, PERSIAN
 	db 0
 ; Learnset
-	db 12, BITE
-	db 17, PAY_DAY
+	db 17, BITE
+	db 12, PAY_DAY
 	db 24, SCREECH
 	db 33, FURY_SWIPES
 	db 44, SLASH
@@ -1915,7 +1915,7 @@ PonytaEvosMoves:
 	db EV_LEVEL, 40, RAPIDASH
 	db 0
 ; Learnset
-	db 10, QUICK_ATTACK
+	db 5, QUICK_ATTACK
 	db 15, DOUBLE_KICK
 	db 20, STOMP
 	db 26, FIRE_SPIN
@@ -1941,11 +1941,11 @@ RattataEvosMoves:
 	db EV_LEVEL, 20, RATICATE
 	db 0
 ; Learnset
-	db 4, QUICK_ATTACK
-	db 14, HYPER_FANG
-	db 7, FOCUS_ENERGY
-	db 22, SCREECH
-	db 28, SUPER_FANG
+	db 6, QUICK_ATTACK	;LG
+	db 9, FOCUS_ENERGY	;LG
+	db 12, BITE			;LG	9(GSC eggmove)
+	db 15, SUPER_FANG
+	db 18, SCREECH		;LGlv, GSC eggmove
 	db 31, DOUBLE_EDGE
 	db 0
 
@@ -1955,8 +1955,8 @@ RaticateEvosMoves:
 	db 0
 ; Learnset
 	db 7, QUICK_ATTACK
-	db 14, HYPER_FANG
-	db 27, FOCUS_ENERGY
+	db 14, HYPER_FANG	;RBY
+	db 27, FOCUS_ENERGY	
 	db 41, SUPER_FANG
 	db 16, BODY_SLAM	;the youngster east of vermillion and green on ss anne will use this move
 	db 0
@@ -1982,9 +1982,9 @@ NidorinaEvosMoves:
 	db 8, SCRATCH
 	db 12, DOUBLE_KICK
 	db 14, POISON_STING
-	db 23, BITE
-	db 36, SLUDGE
-	db 41, EARTHQUAKE
+	db 18, BITE
+	db 23, TOXIC
+	db 39, BODY_SLAM
 	db 0
 
 GeodudeEvosMoves:

@@ -6,7 +6,7 @@ db 43 ; base speed
 db 50 ; base special
 db WATER ; species type 1
 db WATER ; species type 2
-db 45 ; catch rate
+db 190 ; catch rate		like pikachu
 db 66 ; base exp yield
 INCBIN SQUIRTLE_FR,0,1 ; 55, sprite dimensions
 dw SquirtlePicFront

@@ -5,12 +5,12 @@ Route7Mons:;joenote - added ponyta
 		db 19,ODDISH
 		db 17,MANKEY
 		db 22,ODDISH
-		db 22,PIDGEY
+		db 24,PIDGEOTTO		;wasPIDGEY
 		db 18,PONYTA
-		db 18,GROWLITHE
+		db 18,VULPIX		;wasGROWLITHE
 		db 20,GROWLITHE
-		db 19,MANKEY
-		db 20,MANKEY
+		db 19,VULPIX		;wasMANKEY
+		db 20,PORYGON		;wasMANKEY
 	ENDC
 	IF DEF(_BLUE)
 		db 19,PIDGEY

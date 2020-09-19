@@ -136,7 +136,7 @@ MoveEnd:
 	move SMOG,         POISON_SIDE_EFFECT2,         30, POISON,    70, 20
 	move SLUDGE,       POISON_SIDE_EFFECT2,         80, POISON,   100, 20
 	move BONE_CLUB,    FLINCH_SIDE_EFFECT1,         65, GROUND,    85, 20
-	move FIRE_BLAST,   BURN_SIDE_EFFECT2,          120, FIRE,      85,  5
+	move FIRE_BLAST,   BURN_SIDE_EFFECT2,          110, FIRE,      85,  5
 	move WATERFALL,    FLINCH_SIDE_EFFECT1,        80, WATER,    100, 15
 	move CLAMP,        TRAPPING_EFFECT,             35, WATER,     75, 10	;35, WATER,     75, 10
 	move SWIFT,        SWIFT_EFFECT,                60, NORMAL,   100, 20
