@@ -12,8 +12,8 @@ INCBIN ODDISH_FR,0,1 ; 55, sprite dimensions
 dw OddishPicFront
 dw OddishPicBack
 ; attacks known at lvl 0
-db LEECH_SEED
-db 0
+db ACID
+db GROWTH
 db 0
 db 0
 db 3 ; growth rate

@@ -38,7 +38,7 @@ tmhmNames:
 	db "TM31 MIMIC@"
 	db "TM32 DBLTEAM@"
 	db "TM33 REFLECT@"
-	db "TM34 BIDE@"
+	db "TM34 HEDBUTT@"
 	db "TM35 MTRONOM@"
 	db "TM36 SELFDST@"
 	db "TM37 EGGBOMB@"

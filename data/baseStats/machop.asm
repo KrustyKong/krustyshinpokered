@@ -11,10 +11,10 @@ db 88 ; base exp yield
 INCBIN MACHOP_FR,0,1 ; 55, sprite dimensions
 dw MachopPicFront
 dw MachopPicBack
-; attacks known at lvl 0
-db KARATE_CHOP
-db 0
-db 0
+; attacks known at lvl 0	geniii
+db LEER
+db LOW_KICK
+db FOCUS_ENERGY
 db 0
 db 3 ; growth rate
 ; learnset

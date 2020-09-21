@@ -58,13 +58,16 @@ SpecialTrainerMoves:
 	db 0
 	
 	db ERIKA,$1
-	db 2,1,GROWTH
-	db 2,2,SLEEP_POWDER
-	db 2,3,WRAP
-	db 2,4,RAZOR_LEAF
-	db 3,1,POISONPOWDER
+	db 1,1,ROCK_THROW
+	db 1,3,STUN_SPORE
+	db 1,4,AMNESIA
+	db 2,2,MEGA_DRAIN
+	db 2,3,SLUDGE	;poisonjab in LGPE
+;	db 2,3,WRAP
+;	db 2,4,RAZOR_LEAF
+;	db 3,1,POISONPOWDER
 	db 3,2,MEGA_DRAIN
-	db 3,3,SLEEP_POWDER
+;	db 3,3,SLEEP_POWDER
 	db 3,4,PETAL_DANCE
 	db 0
 	
@@ -83,11 +86,11 @@ SpecialTrainerMoves:
 	db 0
 	
 	db BLAINE,$1
-	db 1,1,SWIFT
-	db 2,1,STRENGTH
-	db 3,3,TAKE_DOWN
-	db 4,2,AGILITY
-	db 4,3,FIRE_BLAST
+	db 1,4,FIRE_BLAST	;Flareon in krusty ver
+	db 2,1,FLY			;Charizardlv40 
+	db 4,3,THUNDERPUNCH	;MAGMARlv47
+	db 5,2,AGILITY		;rapidashlv50
+	db 6,1,FIRE_BLAST
 	db 0
 	
 	db GIOVANNI,$3
@@ -101,9 +104,9 @@ SpecialTrainerMoves:
 	db 0
 	
 	db LORELEI,$1
-	db 1,1,BUBBLEBEAM
-	db 3,1,SURF
-	db 3,2,ICE_BEAM
+	db 1,2,BODY_SLAM	;wasbubblebeam, slot1
+;	db 3,1,SURF
+	db 3,2,BLIZZARD		;wasIcebeam
 	db 4,1,PSYCHIC_M
 	db 4,3,LOVELY_KISS
 	db 5,3,BLIZZARD

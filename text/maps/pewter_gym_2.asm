@@ -85,7 +85,7 @@ _PewterGymBattleText1::
 	done
 
 _PewterGymEndBattleText1::
-	text "Darn!"
+	text "Shit! Fuck!"
 
 	para "Light years isn't"
 	line "time! It measures"
